@@ -30,8 +30,8 @@ public class Exercise03_15 {
 
         int l1 = lottery / 100;
         int l2 = lottery % 100;
-        int l3 = l2 / 10;
-        l2 %= 10;
+        int l3 = l2 % 10;
+        l2 /= 10;
 
         System.out.println("l1 = " + l1);
         System.out.println("l2 = " + l2);
@@ -39,8 +39,8 @@ public class Exercise03_15 {
 
         int g1 = guess / 100;
         int g2 = guess % 100;
-        int g3 = g2 / 10;
-        g2 %= 10;
+        int g3 = g2 % 10;
+        g2 /= 10;
 
         System.out.println("g1 = " + g1);
         System.out.println("g2 = " + g2);
